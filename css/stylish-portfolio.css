@@ -86,14 +86,17 @@ h6 {
 }
 
 .masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../img/mastheader.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 28rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/mastheader.png");
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .masthead h1 {
